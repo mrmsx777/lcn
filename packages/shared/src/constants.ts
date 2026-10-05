@@ -1,0 +1,15 @@
+export const PROGRAMS = {
+  PUMP_FUN: '6EF8rrecthR5Dkzon8Nwu78hRvfX9PNnUM1qZ19snCG',
+  RAYDIUM_AMM_V4: '675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8',
+};
+
+export const JITO_TIP_ACCOUNTS = [
+  '96gYZGLnJYVFmbjzopPSU6QiCR5J9k1TNBsmk1r4cQ6',
+  'HFqU5x63VTqvQss8hp11i4wVV8bD44PvwucfZ2bU7gRe',
+  'Cw8CFyM9FkoMi7K7Crf6HNQqf4uEMzpKw6QNghXLvVkY',
+  'ADaUMid9yfUytqMBgopwjb2DTLSokTSzL1zt6iGtwWxa',
+  'DfXygSm4jMRxFjAEnn3jQ6E2QdHTtGfR1A1H8vLzWfF9',
+  'ADuUkR4vqLUMWXxW9gh6D6L8pMSawimctcNZ5pGwPe5J',
+  'DttWaMuVvTiduZRnguLF7FsBogWAzaLbnN4b6s4M4p3B',
+  '3AVi9Tg9Uo68tJfuvoKvqKNkMAZ1EKSfFzU1Qo5Fv5g2'
+];

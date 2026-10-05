@@ -1,0 +1,18 @@
+{
+  "name": "solana-sentinel",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:engine": "npm run dev -w apps/engine",
+    "dev:web": "npm run dev -w apps/web",
+    "dev": "concurrently \"npm run dev:engine\" \"npm run dev:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.2.2"
+  }
+}

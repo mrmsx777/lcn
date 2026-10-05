@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glass {
+    @apply bg-surface/80 backdrop-blur-md border border-white/5;
+  }
+  
+  .glass-card {
+    @apply bg-surface/50 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 255, 163, 0.5);
+  }
+}
+
+/* Custom Scrollbar for Terminal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

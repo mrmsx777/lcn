@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  solana-sentinel:
+    build: .
+    container_name: solana-sentinel
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      # Map the local database file into the container so history is saved locally
+      - ./apps/engine/data/db.json:/app/apps/engine/data/db.json
+      # Optional: Map the keystore so it stays exactly the same as your local machine
+      - ./apps/engine/data/keystore.json:/app/apps/engine/data/keystore.json
